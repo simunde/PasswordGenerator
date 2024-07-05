@@ -32,11 +32,11 @@ export default function App() {
       const specialChars = '!@#$%^&*()_+[]{}|;:,.<>?';
 
     if (upperCase) {
-        characterList += upperCaseChars;
+        characterList += upperCase;
     }
     
     if (lowerCase) {
-        characterList += lowerCaseChars;
+        characterList += lowerCase;
     }
     
     if (numbers) {
